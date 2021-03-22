@@ -63,10 +63,9 @@ class MainActivity : AppCompatActivity() {
             ".jpg", /* suffix */
             storageDir /* directory */
         ).apply {
-            // Save a file: path for use with ACTION_VIEW intents
+          
             currentPhotoPath = absolutePath
-           // galleryAddPic()
-        }
+                  }
     }
 
 
